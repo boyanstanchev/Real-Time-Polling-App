@@ -1,4 +1,4 @@
-# Real-Time-Polling-App
+# Realtime favourite OS to vote on polling app
 
 * Express
 * CanvasJS
