@@ -4,3 +4,5 @@
 * CanvasJS
 * Mlab 
 * Pusher for real-time results
+
+Deployed at [Heroku](https://os-voting.herokuapp.com/)
