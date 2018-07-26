@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Polling App</title>
+    <link rel="stylesheet" href="materialize.css">
+</head>
+<body>
+    <div class="container">
+        <h1>OS Vote</h1>
+        <p>Vote for favorite OS to code on</p>
+        <form id="vote-form">
+            <p>
+                <input class="with-gap" type="radio" name="os" id="windows" value="Windows">
+                <label for="windows">Windows</label>
+            </p>
+            <p>
+                <input class="with-gap" type="radio" name="os" id="macos" value="MacOS">
+                <label for="macos">MacOS</label>
+            </p>
+            <p>
+                <input class="with-gap" type="radio" name="os" id="linux" value="Linux">
+                <label for="linux">Linux Distro</label>
+            </p>
+            <p>
+                <input class="with-gap" type="radio" name="os" id="other" value="Other">
+                <label for="other">Other</label>
+            </p>
+            <input type="submit" value="Vote" class="btn">
+        </form>
+
+        <br><br>
+
+        <div id="chartContainer" style="height: 300px; width: 100%">
+
+        </div>
+    </div>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="materialize.min.js"></script>
+    <script src="pusher.min.js"></script>
+    <script src="canvasjs.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
